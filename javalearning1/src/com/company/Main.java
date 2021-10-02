@@ -10,8 +10,7 @@ public class Main {
     }
 
     public static boolean isSquare(int x) {
-        if (Math.sqrt(x) % 1 == 0) return true;
-        else return false;
+        return Math.sqrt(x) % 1 == 0;
     }
 
     public static void main(String[] args) {
