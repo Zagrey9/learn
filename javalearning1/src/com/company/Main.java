@@ -2,7 +2,6 @@ package com.company;
 
 public class Main {
 
-
     public static void isSquare(int[] array) {
         for (int i : array) {
             System.out.println(isSquare(i) ? i + " Полный квадрат" : i + " Неполный квадрат");
@@ -10,7 +9,9 @@ public class Main {
     }
 
     public static boolean isSquare(int x) {
-        return Math.sqrt(x) % 1 == 0;
+        int n = (int) Math.sqrt(x);
+        int r = n*n;
+        return r == x;
     }
 
     public static void main(String[] args) {
