@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
 
-    ppublic static void isSquare(int[] array) {
+    public static void isSquare(int[] array) {
         for (int i : array) {
             System.out.println(isSquare(i) ? i + " Полный квадрат" : i + " Неполный квадрат");
         }
