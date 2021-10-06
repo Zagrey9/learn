@@ -17,5 +17,6 @@ public class Main {
     public static void main(String[] args) {
         int[] array = new int[]{4, 8, 9, 16, 18, 26, 36, 40, 100};
         isSquare(array);
+
     }
 }
